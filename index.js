@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["<:QatarRegular:1333114630549278773> Handling QAV Moderation", "<:QatarRegular:1333114630549278773> Handling QAV Support"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["Monitoring Qatar Airways", "Handling your tickets", "Flying to 100 members"];
+const statusTypes = [ 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
